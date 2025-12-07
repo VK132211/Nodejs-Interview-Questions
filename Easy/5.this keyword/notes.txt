@@ -1,0 +1,14 @@
+1) In a normal function/ function declartion / named function,
+"this" keyword refers to the object that the function is called on.
+
+2) Arrow functions don't have their own bindings, so when "this"
+is accesses inside an arrow function, it is taken from outside.
+
+3) when "this" keyword is used in named function/function declaration,
+the "this" keyword is equal to the global object as long as the
+named function is in the global scope and not called on any object.
+
+4)In global scope the "this" keyword refers to module.exports object.
+
+5)In a function expression in he global scope , this keyword
+refers to module.exports object.
