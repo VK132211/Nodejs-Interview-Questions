@@ -1,0 +1,15 @@
+{
+  "name": "3.uv_threadpool_size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "SET UV_THREADPOOL_SIZE=6 && node crypto.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execution-time": "^1.4.1"
+  }
+}
